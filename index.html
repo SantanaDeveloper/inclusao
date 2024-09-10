@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusion360 | Treinamentos de Diversidade e Inclusão</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Inclusion360 | Treinamentos de Diversidade e Inclusão">
+  <meta property="og:description" content="A Inclusion360 oferece treinamentos especializados para promover a diversidade e inclusão no ambiente corporativo. Conheça nossos programas e junte-se a nós na construção de uma cultura mais inclusiva.">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Inclusion360 | Treinamentos de Diversidade e Inclusão">
+  <meta name="twitter:description" content="A Inclusion360 oferece treinamentos especializados para promover a diversidade e inclusão no ambiente corporativo. Conheça nossos programas e junte-se a nós na construção de uma cultura mais inclusiva.">
+</head>
+<body>
+  <header>
+    <h1>Inclusion360</h1>
+    <h1>Treinamentos Corporativos: Diversidade e Inclusão</h1>
+    <p>Promovendo um ambiente de trabalho mais inclusivo e diverso</p>
+  </header>
+  <section id="quem-somos">
+    <div class="imgcontainer">
+      <img src="banner.jpg" alt="Banner" class="imagem">
+    </div>
+    <h2>Quem Somos</h2>
+    <p><strong>Inclusion360</strong> é uma empresa dedicada a promover um ambiente de trabalho mais inclusivo e diverso através de treinamentos corporativos especializados. Nossa missão é apoiar empresas na construção de culturas mais inclusivas, onde a diversidade seja celebrada e todos os colaboradores se sintam valorizados e respeitados.</p>
+
+    <h3>Nossa Proposta</h3>
+    <p>Oferecemos uma gama de treinamentos que abordam diferentes aspectos da diversidade e inclusão, cada um projetado para ajudar sua organização a enfrentar desafios específicos e adotar melhores práticas no ambiente de trabalho.</p>
+
+    <h3>Nosso Compromisso</h3>
+    <p>Na <strong>Inclusion360</strong>, acreditamos que a inclusão e a diversidade são fundamentais para o sucesso de qualquer organização. Estamos empenhados em fornecer treinamentos que não apenas educam, mas também inspiram mudanças reais e duradouras. Junte-se a nós na jornada para criar um ambiente de trabalho mais inclusivo e inovador.</p>
+  </section>
+  <div class="container">
+    <div class="training">
+      <h2>Treinamento 1: Conscientização sobre Diversidade</h2>
+      <p>Explora os diferentes tipos de diversidade no ambiente corporativo, incluindo cultura, gênero, raça e mais.</p>
+      <button onclick="openModal('diversidade')">Acessar Treinamento Completo</button>
+    </div>
+
+    <div class="training">
+      <h2>Treinamento 2: Inclusão de Pessoas com Deficiência</h2>
+      <p>Aborda práticas para adaptar o ambiente de trabalho e garantir oportunidades para todos. Selecione um subtreinamento:</p>
+      <select id="subtrainingDropdown" onchange="showSubtrainingModal()">
+        <option value="">Selecione um subtreinamento</option>
+        <option value="deficiencia_fisica">Deficiência Física</option>
+        <option value="deficiencia_visual">Deficiência Visual</option>
+        <option value="deficiencia_auditiva">Deficiência Auditiva</option>
+        <option value="deficiencia_intelectual">Deficiência Intelectual</option>
+      </select>
+    </div>
+
+    <div class="training">
+      <h2>Treinamento 3: Combate ao Preconceito Inconsciente</h2>
+      <p>Ajuda líderes e colaboradores a reconhecer preconceitos inconscientes no ambiente corporativo.</p>
+      <button onclick="openModal('preconceito')">Acessar Treinamento Completo</button>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <div id="modal-video"></div>
+    </div>
+  </div>
+
+  <script src="modal.js"></script>
+</body>
+</html>

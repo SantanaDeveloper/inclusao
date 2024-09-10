@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: left; /* Adicionado para alinhar o texto à esquerda */
+  }
+  
+  header {
+    background-color: #6A2ECE;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header > h1 {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: white;
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  .training {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  .training h2 {
+    color: #6A2ECE;
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  button {
+    background-color: #6A2ECE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #5271FF
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 80%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  .modal-content h2 {
+    color: #6A2ECE;
+    text-align: left; /* Alinhamento à esquerda */
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  
+  section#quem-somos {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section#quem-somos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6A2ECE;
+  }
+  
+  section#quem-somos h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #6A2ECE;
+  }
+  
+  section#quem-somos p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  section#quem-somos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section#quem-somos ul li {
+    margin-bottom: 20px;
+  }
+  
+  section#quem-somos ul li strong {
+    font-size: 1.2em;
+    color: #007bff;
+  }
+
+  .imgcontainer{
+    display: flex;
+  }
+  .imagem{
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .imagem {
+      width: 100%;
+    }
+  }
